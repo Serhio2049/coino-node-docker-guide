@@ -35,3 +35,19 @@ docker run -d --name coino-node --restart unless-stopped \
 
 # 5. Check logs
 docker logs -f coino-node
+### Option 2: Manual Setup
+
+For detailed manual installation instructions, see the [full guide](docs/README.md).
+
+## 📥 Downloads
+
+| File | Description | Link |
+|------|-------------|------|
+| **Docker Image** | Complete node with all dependencies | [coino-node-docker-image-20260220.tar.gz](https://github.com/Serhio2049/coino-node-docker-guide/releases/download/v2.0.0-docker-image/coino-node-docker-image-20260220.tar.gz) |
+| **Configuration Example** | Sample coino.conf | [docs/coino.conf.example](docs/coino.conf.example) |
+
+### Integrity Verification
+
+```bash
+# Verify SHA256 hash of the Docker image
+echo "7d3be8e73ec84063eddaad651770f9ed1db54a46bc1effc82cbab898418302cb  coino-node-docker-image-20260220.tar.gz" | shasum -c
