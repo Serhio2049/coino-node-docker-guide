@@ -1,0 +1,16 @@
+# Example configuration for Coino node
+# Copy this file to /home/coino/config/Coino.conf and edit
+
+server=1
+daemon=1
+listen=1
+rpcuser=your_username
+rpcpassword=your_password
+rpcport=29299
+rpcconnect=127.0.0.1
+port=29293
+addnode=194.37.81.113
+addnode=91.121.45.149
+addnode=151.241.100.16
+addnode=5.180.181.33
+gen=0
