@@ -1,0 +1,94 @@
+# Docker images and binaries
+*.tar.gz
+*.tgz
+*.zip
+*.exe
+*.bin
+Coinod
+Coino-qt-ubuntu64
+coino_server/
+coino_node.zip
+
+# Docker files
+*.pid
+*.log
+.dockerignore
+Dockerfile
+*.docker
+
+# Data directories
+/data/
+_data/
+/home/coino/_data/
+coino-data/
+*.data
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux specific
+*~
+.swp
+.swo
+*.lock
+*.log
+*.pid
+*.socket
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-*
+
+# Git
+*.orig
+*.patch
+*.diff
+*.merge
+*.rej
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+*.out
+*.err
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.cache
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+*.keystore
+secrets/
+
+# Documentation build
+/docs/_build/
+/docs/build/
+/docs/source/
