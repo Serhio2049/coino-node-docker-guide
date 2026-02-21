@@ -1,5 +1,9 @@
 # Coino Node Docker Guide
 
+## ⚡️ Quick Download
+
+[⬇️ Download Coino v2.0.0 Docker Image](https://github.com/Serhio2049/coino-node-docker-guide/releases/download/v2.0.0-docker-image/coino-node-docker-image-20260220.tar.gz) (474 MB)
+
 A comprehensive guide to running a Coino (CNO) v2.0.0 node in a Docker container on modern Linux systems.
 
 ## 📦 About This Project
